@@ -40,4 +40,8 @@ public class CarrinhoEngine {
     public BigDecimal fecharPedido(String numpedido){
         return new TotalCarrinhoConnection().Total(numpedido);
     }
+
+    public void pagarConta(String numpedido, String tipopagamento){
+        new InserirPagamentoConnection().Pagar(numpedido,tipopagamento,fecharPedido(numpedido));
+    }
 }

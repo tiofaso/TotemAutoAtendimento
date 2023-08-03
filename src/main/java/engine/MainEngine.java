@@ -90,6 +90,21 @@ public class MainEngine {
                 new PagamentoMenu().mostraMenu();
                 int pagamentoEscolhido = entrada.teclado();
 
+                String pagamento;
+
+                switch (pagamentoEscolhido){
+                    case 1:
+                        pagamento = "débito";
+                        break;
+                    case 2:
+                        pagamento = "crédito";
+                        break;
+                    default:
+                        pagamento = "vale refeição";
+                }
+
+                new CarrinhoEngine().pagarConta(numPedido,pagamento);
+
                 System.out.println("Compra finalizada com sucesso! Boa refeição!");
             }
 
