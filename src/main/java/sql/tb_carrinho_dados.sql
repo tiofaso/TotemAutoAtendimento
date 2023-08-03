@@ -1,0 +1,75 @@
+INSERT INTO public.tb_carrinho (numpedido,escolhapedido,quantidadepedido,valorpedido,estadopedido,nomepedido) VALUES
+	 ('#53962331',1,3,30,true,NULL),
+	 ('#10260024',1,2,16,true,NULL),
+	 ('#43686888',1,1,10,true,NULL),
+	 ('#30284311',2,1,12,true,NULL),
+	 ('#83584133',2,1,6,true,NULL),
+	 ('#29737019',2,4,48,true,NULL),
+	 ('#29737019',2,1,6,true,NULL),
+	 ('#32144427',1,1,10,true,NULL),
+	 ('#32144427',1,1,8,true,NULL),
+	 ('#32144427',2,1,12,true,NULL);
+INSERT INTO public.tb_carrinho (numpedido,escolhapedido,quantidadepedido,valorpedido,estadopedido,nomepedido) VALUES
+	 ('#94500404',1,1,10,true,NULL),
+	 ('#94500404',2,1,12,true,NULL),
+	 ('#78563676',1,1,10,true,NULL),
+	 ('#29253491',1,1,10,true,NULL),
+	 ('#64135900',1,1,10,true,NULL),
+	 ('#40439133',1,1,10,true,NULL),
+	 ('#17635270',2,1,12,true,NULL),
+	 ('#48961715',2,1,12,true,NULL),
+	 ('#48961715',1,1,8,true,NULL),
+	 ('#48961715',2,3,36,false,NULL);
+INSERT INTO public.tb_carrinho (numpedido,escolhapedido,quantidadepedido,valorpedido,estadopedido,nomepedido) VALUES
+	 ('#45343213',1,1,10,true,NULL),
+	 ('#19531678',1,1,10,true,NULL),
+	 ('#49727572',1,1,10,true,NULL),
+	 ('#49727572',2,1,12,true,NULL),
+	 ('#49727572',1,1,8,true,NULL),
+	 ('#49727572',2,1,6,true,NULL),
+	 ('#99962511',1,1,10,true,NULL),
+	 ('#99962511',2,2,24,true,NULL),
+	 ('#55765319',1,1,10,true,NULL),
+	 ('#88963789',2,1,12,true,NULL);
+INSERT INTO public.tb_carrinho (numpedido,escolhapedido,quantidadepedido,valorpedido,estadopedido,nomepedido) VALUES
+	 ('#11991973',1,1,10,true,NULL),
+	 ('#30084258',1,1,10,true,NULL),
+	 ('#38320473',2,1,12,true,NULL),
+	 ('#38320473',2,1,12,true,NULL),
+	 ('#70062064',1,1,10,true,NULL),
+	 ('#89812621',2,1,12,true,NULL),
+	 ('#45090386',1,1,10,true,NULL),
+	 ('#18165948',1,1,10,true,NULL),
+	 ('#18165948',2,1,12,true,NULL),
+	 ('#49788750',2,1,12,true,'X-salada');
+INSERT INTO public.tb_carrinho (numpedido,escolhapedido,quantidadepedido,valorpedido,estadopedido,nomepedido) VALUES
+	 ('#49788750',1,1,10,true,'X-burguer'),
+	 ('#49788750',1,1,8,true,'Refrigerante'),
+	 ('#49788750',2,1,6,true,'Suco'),
+	 ('#49788750',1,2,16,false,'Refrigerante'),
+	 ('#81033916',1,1,10,true,'X-burguer'),
+	 ('#81033916',1,1,8,true,'Refrigerante'),
+	 ('#25201425',1,2,20,true,'X-burguer'),
+	 ('#25201425',1,2,16,true,'Refrigerante'),
+	 ('#25201425',2,1,6,false,'Suco'),
+	 ('#12593155',1,2,20,true,'X-burguer');
+INSERT INTO public.tb_carrinho (numpedido,escolhapedido,quantidadepedido,valorpedido,estadopedido,nomepedido) VALUES
+	 ('#84690885',1,2,20,true,'X-burguer'),
+	 ('#70551815',1,2,20,true,'X-burguer'),
+	 ('#59582295',1,2,20,true,'X-burguer'),
+	 ('#26815063',2,2,24,true,'X-salada'),
+	 ('#43948547',2,1,12,true,'X-salada'),
+	 ('#43948547',1,1,8,true,'Refrigerante'),
+	 ('#44473578',1,1,10,true,'X-burguer'),
+	 ('#55928010',1,1,10,true,'X-burguer'),
+	 ('#81649059',1,1,10,true,'X-burguer'),
+	 ('#81649059',1,1,8,true,'Refrigerante');
+INSERT INTO public.tb_carrinho (numpedido,escolhapedido,quantidadepedido,valorpedido,estadopedido,nomepedido) VALUES
+	 ('#32522790',1,1,10,true,'X-burguer'),
+	 ('#86219202',2,1,12,true,'X-salada'),
+	 ('#92544003',2,1,12,true,'X-salada'),
+	 ('#92544003',1,1,8,true,'Refrigerante'),
+	 ('#33225181',1,1,10,true,'X-burguer'),
+	 ('#33225181',1,1,8,true,'Refrigerante'),
+	 ('#88149953',1,1,10,true,'X-burguer'),
+	 ('#88149953',2,1,6,true,'Suco');
