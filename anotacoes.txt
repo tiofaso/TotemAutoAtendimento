@@ -1,0 +1,26 @@
+lanche (id, nomelanche, ingredienteslanche, valor)
+bebida (id, nomebebida, valor)
+pedido (id, numpedido,lancheid,bebidaid, quantidadepedido,tipopagamento,troco, valorpedido)
+
+public void ssh(@ShellOption(value = "-s") String remoteServer)
+
+		<dependency>
+			<groupId>org.springframework.shell</groupId>
+			<artifactId>spring-shell-starter</artifactId>
+			<version>2.1.12</version>
+		</dependency>
+
+CREATE TABLE tb_lanche(id SERIAL PRIMARY KEY, nomelanche varchar(15),
+ingredientelanche varchar (100), valor decimal);
+
+CREATE TABLE tb_bebida(id SERIAL PRIMARY KEY, nomebebida varchar(15),
+valor decimal);
+
+CREATE TABLE tb_pedido(id SERIAL PRIMARY KEY, numpedido varchar(10),
+lancheid SERIAL, bebidaid SERIAL,
+FOREIGN KEY (lancheid) REFERENCES tb_lanche(id),
+FOREIGN KEY (bebidaid) REFERENCES tb_bebida(id),
+quantidadelanche int, quantidadebebida int,
+tipopagamento varchar(10),
+troco decimal, totalpedido decimal);
+
